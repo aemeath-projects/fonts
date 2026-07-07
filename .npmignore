@@ -1,3 +1,11 @@
 src/
 .idea/
-scripts/
+.github/
+.husky/
+.git/
+.gitignore
+.versionrc.json
+commitlint.config.js
+CHANGELOG.md
+pnpm-lock.yaml
+node_modules/
