@@ -1,7 +1,7 @@
 {
   "name": "@aemeath-projects/fonts",
-  "version": "1.0.0",
-  "description": "Self-host the Lahai-Roi, Ragunna, and Septimont fonts in a neatly bundled NPM package.",
+  "version": "0.0.1",
+  "description": "自托管 \"Lahai-Roi\"、\"Ragunna\" 和 \"Septimont\" 字体",
   "main": "index.css",
   "publishConfig": {
     "access": "public"
@@ -188,10 +188,10 @@
   "scripts": {
     "convert": "python scripts/convert.py",
     "commit": "cz",
-    "release": "commit-and-tag-version",
-    "release:patch": "commit-and-tag-version --release-as patch",
-    "release:minor": "commit-and-tag-version --release-as minor",
-    "release:major": "commit-and-tag-version --release-as major",
+    "bump": "commit-and-tag-version",
+    "bump:patch": "commit-and-tag-version --release-as patch",
+    "bump:minor": "commit-and-tag-version --release-as minor",
+    "bump:major": "commit-and-tag-version --release-as major",
     "prepare": "husky"
   },
   "config": {
