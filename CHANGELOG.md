@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.1](https://github.com/aemeath-projects/wuwa-fonts/compare/v0.1.0...v0.1.1) (2026-07-07)
+
+
+### Bug Fixes
+
+* 修复发布流程并更新 .npmignore 忽略规则 ([43b2dfd](https://github.com/aemeath-projects/wuwa-fonts/commit/43b2dfd9e217496a9821d0c300a425b13b0c631c))
+
 ## 0.1.0 (2026-07-07)
 
 
