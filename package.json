@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "自托管 \"Lahai-Roi\"、\"Ragunna\" 和 \"Septimont\" 字体",
   "main": "index.css",
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "fontsource",
     "font",
@@ -177,16 +174,14 @@
       "default": "./files/*.woff2"
     }
   },
-  "author": "aemeath-projects",
+  "author": "Aemeath Projects",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/aemeath-projects/fonts",
-  "funding": "https://github.com/sponsors/aemeath-projects",
+  "homepage": "https://aemeath.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aemeath-projects/fonts.git"
+    "url": "https://github.com/aemeath-projects/fonts.git"
   },
   "scripts": {
-    "convert": "python scripts/convert.py",
     "commit": "cz",
     "bump": "commit-and-tag-version",
     "bump:patch": "commit-and-tag-version --release-as patch",
