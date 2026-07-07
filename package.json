@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "鸣潮字体库",
   "main": "index.css",
+  "scripts": {
+    "commit": "cz",
+    "bump": "commit-and-tag-version",
+    "bump:patch": "commit-and-tag-version --release-as patch",
+    "bump:minor": "commit-and-tag-version --release-as minor",
+    "bump:major": "commit-and-tag-version --release-as major",
+    "prepare": "husky"
+  },
   "keywords": [
     "fontsource",
     "font",
@@ -180,14 +188,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/aemeath-projects/fonts.git"
-  },
-  "scripts": {
-    "commit": "cz",
-    "bump": "commit-and-tag-version",
-    "bump:patch": "commit-and-tag-version --release-as patch",
-    "bump:minor": "commit-and-tag-version --release-as minor",
-    "bump:major": "commit-and-tag-version --release-as major",
-    "prepare": "husky"
   },
   "config": {
     "commitizen": {
