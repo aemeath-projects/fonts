@@ -35,7 +35,7 @@ $axes: null !default;
   $directory: if(
     $directory,
     $directory,
-    '~@aemeath-projects/fonts/files'
+    '~@aemeath-projects/wuwa-fonts/files'
   );
 
   $family: if($family, $family, map.get($metadata, family));

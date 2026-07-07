@@ -1,7 +1,7 @@
 {
-  "name": "@aemeath-projects/fonts",
+  "name": "@aemeath-projects/wuwa-fonts",
   "version": "0.0.1",
-  "description": "自托管 \"Lahai-Roi\"、\"Ragunna\" 和 \"Septimont\" 字体",
+  "description": "鸣潮字体库",
   "main": "index.css",
   "keywords": [
     "fontsource",
